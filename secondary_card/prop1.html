@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
+    <title>Property 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="../jquery.min.js"></script>
+    <link rel="stylesheet" href="../jquery-ui-1.13.2.custom/jquery-ui.css" />
+    <script src="../jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div class="secondary_card" style="background-image: url(../Images/img1.jpg);">
+		<a href="../index.html"><img class="x_icon" id="secondary_card_close" src="../Images/x_icon.svg" alt="" style="top: 0;"></a>
+      	<div class="gallery-container">
+			<div class="gallery-active-container">
+			<img id="mainImg" class="gallery-active" src="../Images/thumbnails/thumbnail1.jpg" />
+			</div>
+
+			<div class="gallery-thumbs">
+			<div class="thumbnail active">
+				<img id="thumb1" class="thumbnail-image" src="../Images/thumbnails/thumbnail1.jpg" />
+			</div>
+			<div class="thumbnail">
+				<img id="thumb2" class="thumbnail-image" src="../Images/thumbnails/thumbnail2.jpg" />
+			</div>
+			<div class="thumbnail">
+				<img id="thumb3" class="thumbnail-image" src="../Images/thumbnails/thumbnail3.jpg" />
+			</div>
+			<div class="thumbnail">
+				<img id="thumb4" class="thumbnail-image" src="../Images/thumbnails/thumbnail4.jpg" />
+			</div>
+			<div class="thumbnail">
+				<img id="thumb5" class="thumbnail-image" src="../Images/thumbnails/thumbnail5.jpg" />
+			</div>
+			<div class="thumbnail">
+				<img id="thumb6" class="thumbnail-image" src="../Images/thumbnails/thumbnail6.jpg" />
+			</div>
+			</div>
+      	</div>
+
+      	<div id="tabs">
+			<div class="tab_card">
+				<div class="tab_card_body">
+					<ul class="tab_navbar">
+						<li>
+							<a href="#" class="tab active" data-id="description">
+							<span class="icon"><i class='bx bx-notepad bx-sm'></i></span>
+							<span class="text">Description</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="tab" data-id="floor-plan">
+							<span class="icon"><i class='bx bx-building-house bx-sm'></i></span>
+							<span class="text">Floor Plan</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="tab" data-id="location">
+							<span class="icon"><i class='bx bx-location-plus bx-sm'></i></span>
+							<span class="text">Location</span>
+							</a>
+						</li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane active" id="description">
+							<p>Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...</p>
+						</div>
+						<div class="tab-pane" id="floor-plan">
+							<div class="floor-plan">
+								<img src="../Images/floor-plans/floor-plan1.jpg" alt="">
+							</div>
+						</div>
+						<div class="tab-pane" id="location">
+							<iframe class="loaction" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19918.619502926427!2d0.06075962509238534!3d51.38784949538752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab091574bbd7%3A0x6d04bba4f6f12998!2sPetts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1673538548506!5m2!1sen!2slk" width="600" height="200" style="border:0;" allowfullscreen="" loading="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+      	</div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
